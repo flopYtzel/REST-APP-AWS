@@ -25,10 +25,10 @@ public class AlumnoService {
     @Autowired
     AlumnoRepository alumnoRepository;
 
-    String key = "ASIA5BPQN3VS5JK52Y2R";
-    String secret = "l3Ub0P44PVg4ONl7e4L9C13pi5ILiZQ/eQH8tvnK";
-    String sessionToken = "FwoGZXIvYXdzEGoaDOeBPhZt9OOfnUdVvSLQAexjarDzebU/WHOB3v935jg5e4OrIOydPSYdBNM8pnt7KWNMlstMX9H4hkNrQyGSyV0pSpo3CS+peVpkTEqxHliZdlV4ROOi8/akMoO96x1UhCKEUfF6QLrMTlcxL9bOtFMl7dHtP3uJL0RQs9WckIMsWUEz9Z6aXbt7LyPXxvbUIgEHkdaqc5GXK9pKOwkg6rkNG59tTd3r8DjKGTwDOX0eNYRjSgzXe+8teE+LBRe0GgZY4IJikXCgzp8vYRIPkmm7cSmgukGmUwzgAhVirN0o2NbUnAYyLVLn4ksC92GTMiUkTQG4YAIYhLt8brdo2uTc83NBPkrWnDurWbfAlKuE1RHx1w==";
-    String bucket = "demospringboots3";
+    String key = "ASIA5BPQN3VS4BJT7HT7";
+    String secret = "KoXCQZ5VrjtyEf7uZuIZKL8nAjZLovxJXEfIJgjV";
+    String sessionToken = "FwoGZXIvYXdzELL//////////wEaDBS/nj9R+vMOMQ57xiLQAXFvJ99MrZfmVfJB+mF97OInq5JYXK1kplupagjqXbrXpXRDsQ5hhvnIuZX0oodquMN1kfgZXanxgZlnMXLHz1hdE5BU5ST6TfzAcBqeIUqPJHJIELPV0P82AoDfOtYFRP3n51CrNP5XTrFSbnQU+I684SGJP7MMLdteNmkarr9BeGSy0BYpE0c3pCNTQD7Ap+W9RiLfaSJbXzk7+9KVz8MljPMSzEEhNWKMSva9nxbR6OkSLlpZfA8ONuYcOW1BGiCvI580QSyO4CGyHzzftywop67knAYyLbdlEgPjLLIF8pnnERJKITIKJVzSKlM88zqXclEcNd6xh2p9aKCSJqTwO4OYug==";
+    String bucket = "springboots3bucket";
     // private String US_EAST_1;
 
     public AlumnoModel subirFotoPerfil(int id, MultipartFile foto) throws IOException {
